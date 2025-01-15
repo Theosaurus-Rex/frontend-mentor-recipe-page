@@ -23,7 +23,7 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body
-    class="bg-stone-100 flex flex-col content-center items-center justify-center"
+    class="bg-stone-100 flex flex-col content-center items-center justify-center font-outfit text-stone-600"
   >
     <main
       class="bg-white md:my-32 md:mx-16 lg:mx-96 md:rounded-3xl md:min-w-[600px] md:px-10 md:space-y-10"
@@ -34,20 +34,24 @@
         alt="A photo of an omelette on a white plate, filled with various herbs and vegetables."
       />
       <div class="py-10 px-8">
-        <h1 class="font-young-serif text-stone-900 text-4xl">
+        <h1 class="font-young-serif text-stone-900 text-4xl mb-6">
           Simple Omelette Recipe
         </h1>
-        <p>
+        <p class="leading-[150%]">
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
-        <h2>Preparation time</h2>
-        <ul>
-          <li>Total: Approximately 10 minutes</li>
-          <li>Preparation: 5 minutes</li>
-          <li>Cooking: 5 minutes</li>
-        </ul>
+        <div class="my-9 bg-rose-50 p-6 rounded-xl flex flex-col space-y-4">
+          <h2 class="text-rose-800 font-semibold text-xl">Preparation time</h2>
+          <ul class="list-disc marker-rose-800 ml-4 space-y-2">
+            <li>
+              <span class="font-semibold">Total:</span> Approximately 10 minutes
+            </li>
+            <li><span class="font-semibold">Preparation:</span> 5 minutes</li>
+            <li><span class="font-semibold">Cooking:</span> 5 minutes</li>
+          </ul>
+        </div>
         <h2>Ingredients</h2>
         <ul>
           <li>2-3 large eggs</li>

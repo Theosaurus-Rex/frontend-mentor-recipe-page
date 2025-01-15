@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.marker-rose-800 li::marker {
+  color: hsl(332, 51%, 32%);
+}
