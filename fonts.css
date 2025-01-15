@@ -1,23 +1,26 @@
 @font-face {
   font-family: "Outfit";
   font-weight: 400;
-  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf") format("ttf");
+  src: url("public/assets/fonts/outfit/static/Outfit-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Outfit";
   font-weight: 600;
-  src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("ttf");
+  src: url("public/assets/fonts/outfit/static/Outfit-SemiBold.ttf")
+    format("ttf");
 }
 
 @font-face {
   font-family: "Outfit";
   font-weight: 700;
-  src: url("assets/fonts/outfit/static/Outfit-Bold.ttf") format("ttf");
+  src: url("public/assets/fonts/outfit/static/Outfit-Bold.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: "Young Serif";
+  font-family: "YoungSerif";
   font-weight: 400;
-  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf");
+  src: url("public/assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("ttf");
+  font-style: normal;
 }

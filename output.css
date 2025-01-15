@@ -554,9 +554,9 @@ video {
   display: none;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .flex {
@@ -565,22 +565,6 @@ video {
 
 .table {
   display: table;
-}
-
-.min-w-96 {
-  min-width: 24rem;
-}
-
-.max-w-60 {
-  max-width: 15rem;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .flex-col {
@@ -599,6 +583,12 @@ video {
   justify-content: center;
 }
 
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
 .bg-stone-100 {
   --tw-bg-opacity: 1;
   background-color: hsl(30 54% 90% / var(--tw-bg-opacity, 1));
@@ -609,53 +599,89 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.py-9 {
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.font-young-serif {
+  font-family: Young Serif, serif;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-stone-900 {
+  --tw-text-opacity: 1;
+  color: hsl(24 5% 18% / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
-  .md\:my-32 {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  }
-
   .md\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
   }
 
-  .md\:min-w-96 {
-    min-width: 24rem;
+  .md\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .md\:min-w-\[600px\] {
     min-width: 600px;
   }
 
-  .md\:rounded-lg {
-    border-radius: 0.5rem;
-  }
-
-  .md\:rounded-xl {
-    border-radius: 0.75rem;
-  }
-
-  .md\:rounded-2xl {
-    border-radius: 1rem;
+  .md\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .md\:rounded-3xl {
     border-radius: 1.5rem;
   }
 
+  .md\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
   .md\:p-10 {
     padding: 2.5rem;
   }
 
-  .md\:py-10 {
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:pt-10 {
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
   }
 }
 
