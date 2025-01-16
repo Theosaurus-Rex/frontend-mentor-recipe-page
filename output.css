@@ -554,6 +554,11 @@ video {
   display: none;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .my-9 {
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
@@ -573,6 +578,10 @@ video {
 
 .table {
   display: table;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-disc {
@@ -609,6 +618,11 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.border-stone-150 {
+  --tw-border-opacity: 1;
+  border-color: hsl(30 18% 87% / var(--tw-border-opacity, 1));
 }
 
 .bg-rose-50 {
@@ -667,6 +681,10 @@ video {
   font-weight: 600;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .leading-\[150\%\] {
   line-height: 150%;
 }
@@ -693,6 +711,11 @@ video {
 
 .marker-rose-800 li::marker {
   color: hsl(332, 51%, 32%);
+}
+
+.marker-brown-800 li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
 }
 
 .list-item-spacing li {

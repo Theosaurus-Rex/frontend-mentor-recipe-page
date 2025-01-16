@@ -6,6 +6,11 @@
   color: hsl(332, 51%, 32%);
 }
 
+.marker-brown-800 li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
 .list-item-spacing li {
   padding-left: 26px;
 }
